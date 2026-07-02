@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Delivery Checkout Form</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Food Delivery Checkout Form</h1>
+    </header>
+
+    <main>
+        <form action="">
+            <!-- Customer Info -->
+            <section>
+                <h2>Customer info: </h2>
+                <div>
+                    <label for="name">Customer name: </label>
+                    <input id="name" type="text" placeholder="Your name here...">
+                </div>
+
+                <div>
+                    <label for="phone-number">Customer phone number: </label>
+                    <input id="phone-number" type="number" placeholder="Your number here...">
+                </div>
+
+                <div>
+                    <label for="email">Customer email: </label>
+                    <input id="email" type="email" placeholder="Your email here...">
+                </div>
+
+            </section>
+
+            <!-- Order info -->
+            <section>
+                <h2>Order type: </h2>
+                <div>
+                    <p>Choose one: </p>
+                    <input id="delivery" type="radio" name="order-type">
+                    <label for="delivery">Delivery</label>
+
+                    <input id="pickup" type="radio" name="order-type">
+                    <label for="pickup">Pickup</label>
+
+                    <input id="dine-in" type="radio" name="order-type">
+                    <label for="dine-in">Dine-in</label>
+                </div>
+
+                <div>
+                    <p><small><strong>Leave empty if you choose pickup or dine-in</strong></small></p>
+
+                    <label for="delivery-address">Delivery address: </label>
+                    <textarea name="delivery-address" id="delivery-address"
+                        placeholder="Format:city,thana,area,sector,road,house"></textarea>
+
+                </div>
+            </section>
+
+            <!-- Delivery Preferences -->
+            <section>
+                <div>
+                    <h2>Delivery Preferences: </h2>
+
+                    <p>You can select multiple:</p>
+
+                    <input id="onion" type="checkbox">
+                    <label for="onion">No onion</label>
+
+                    <input id="spicy" type="checkbox">
+                    <label for="spicy">Less spicy</label>
+
+                    <input id="sauce" type="checkbox">
+                    <label for="sauce">Extra sauce</label>
+
+                    <input id="halal" type="checkbox">
+                    <label for="halal">Halal preparation</label>
+                </div>
+
+                <div>
+                    <p>Delivery time:</p>
+                    <input id="asap" type="radio" name="time">
+                    <label for="asap">Asap</label>
+
+                    <input id="half-hour" type="radio" name="time">
+                    <label for="half-hour">30 minutes</label>
+
+                    <input id="one-hour" type="radio" name="time">
+                    <label for="one-hour">1 hour</label>
+
+                    <input id="later" type="radio" name="time">
+                    <label for="later">Schedule later</label>
+                </div>
+            </section>
+
+
+        </form>
+    </main>
+
+</body>
+
+</html>
