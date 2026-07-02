@@ -1,11 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Google Coding Workshop</title>
 </head>
-<body>
-    
+
+<body style="background-color: #E8F0FE;">
+
+    <header style="background-color: #F4F6F9;">
+        <h1>Google Workshop registration form:</h1>
+    </header>
+
+    <main>
+
+        <form action="">
+            <!-- personal info -->
+            <section style="background-color: #F0F4F9;">
+                <div>
+                    <p>Enter your university name:</p>
+                    <input type="text" placeholder="enter university name..">
+                </div>
+
+                <div>
+                    <p>Select your department: </p>
+                    <select name="department" id="department">
+                        <option value="CSE">CSE</option>
+                        <option value="EEE">EEE</option>
+                        <option value="IT">IT</option>
+                    </select>
+                </div>
+
+                <div>
+                    <p>Select your year: </p>
+                    <input id="1y" type="radio" name="year">
+                    <label for="1y">1st year</label>
+                    <input id="2y" type="radio" name="year">
+                    <label for="2y">2nd year</label>
+                    <input id="3y" type="radio" name="year">
+                    <label for="3y">3rd year</label>
+                    <input id="4y" type="radio" name="year">
+                    <label for="4y">4th year</label>
+                </div>
+
+                <div>
+                    <p>Select your semester: </p>
+                    <input id="1" type="radio" name="semester">
+                    <label for="1">1st</label>
+                    <input id="2" type="radio" name="semester">
+                    <label for="2">2nd</label>
+                    <input id="3" type="radio" name="semester">
+                    <label for="3">3rd</label>
+                </div>
+
+                <div>
+                    <p>Enter your name:</p>
+                    <input type="text" placeholder="enter your name...">
+                </div>
+
+                <div>
+                    <p>Enter your id:</p>
+                    <input type="number" placeholder="enter your id...">
+                </div>
+
+                <div>
+                    <p>Enter your email:</p>
+                    <input type="email" placeholder="enter your email...">
+                </div>
+
+                <div>
+                    <p>Enter your phone number:</p>
+                    <input type="number" placeholder="enter your phone number...">
+                </div>
+            </section>
+
+            <!-- skills -->
+            <section style="background-color: #F0F4F9;">
+                <div>
+                    <p>What is your programming level?</p>
+                    <input id="beginner" type="radio" name="plvl">
+                    <label for="beginner">Beginner</label>
+                    <input id="intermediate" type="radio" name="plvl">
+                    <label for="intermediate">Intermediate</label>
+                    <input id="professional" type="radio" name="plvl">
+                    <label for="professional">Professional</label>
+                </div>
+
+                <div>
+                    <p>Check programming languages you know:</p>
+                    <input id="c" type="checkbox">
+                    <label for="c">C</label>
+                    <input id="cpp" type="checkbox">
+                    <label for="cpp">C++</label>
+                    <input id="python" type="checkbox">
+                    <label for="python">python</label>
+                    <input id="javascript" type="checkbox">
+                    <label for="javascript">javascript</label>
+                </div>
+
+                <div>
+                    <p>Enter your github or porfolio link:</p>
+                    <input type="text" placeholder="Link...">
+                </div>
+            </section>
+
+            <!-- qna -->
+            <section style="background-color: #F0F4F9;">
+
+                <div>
+                    <p>Will you bring your laptop:</p>
+                    <input id="yes" type="radio" name="device">
+                    <label for="yes">Yes</label>
+                    <input id="no" type="radio" name="device">
+                    <label for="no">No</label>
+                </div>
+
+                <div>
+                    <p>Due to <em>limited seating</em>,
+                        please tell us about your programming journey
+                        so far and why you should be selected for the workshop.
+                    </p>
+                    <textarea name="answer" id="answer" placeholder="Your answer here..."></textarea>
+                </div>
+
+                <div>
+                    <p>Choose your t-shirt size:</p>
+                    <input id="x" type="radio" name="tshirt">
+                    <label for="x">X</label>
+                    <input id="xl" type="radio" name="tshirt">
+                    <label for="xl">XL</label>
+                    <input id="xxl" type="radio" name="tshirt">
+                    <label for="xxl">XXL</label>
+                    <input id="xxxl" type="radio" name="tshirt">
+                    <label for="xxxl">XXXL</label>
+                </div>
+
+            </section>
+
+            <div>
+                <button type="submit">submit</button>
+            </div>
+        </form>
+
+    </main>
+
+    <footer style="background-color: #F4F6F9;">
+        <section>
+            <p>Thank you for submitting, we will contact you soon.</p>
+            <p><small>Organizers have full authority on accepting who can perticipated based on their skills.</small>
+            </p>
+        </section>
+    </footer>
+
 </body>
+
 </html>

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Workshop Registration</title>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <h1>Google Workshop Registration Form</h1>
+        <p>Please fill out the form carefully</p>
+    </header>
+
+    <main>
+
+        <form>
+
+            <!-- ================= PERSONAL INFO ================= -->
+            <section>
+                <h2>Personal Information</h2>
+
+                <div>
+                    <label for="university">University Name</label>
+                    <input id="university" name="university" type="text" placeholder="Enter university name" required>
+                </div>
+
+                <div>
+                    <label for="department">Department</label>
+                    <select id="department" name="department">
+                        <option value="cse">CSE</option>
+                        <option value="eee">EEE</option>
+                        <option value="it">IT</option>
+                    </select>
+                </div>
+
+                <div>
+                    <p>Year</p>
+
+                    <input id="year-1" type="radio" name="year" value="1st">
+                    <label for="year-1">1st Year</label>
+
+                    <input id="year-2" type="radio" name="year" value="2nd">
+                    <label for="year-2">2nd Year</label>
+
+                    <input id="year-3" type="radio" name="year" value="3rd">
+                    <label for="year-3">3rd Year</label>
+
+                    <input id="year-4" type="radio" name="year" value="4th">
+                    <label for="year-4">4th Year</label>
+                </div>
+
+                <div>
+                    <p>Semester</p>
+
+                    <input id="sem-1" type="radio" name="semester" value="1st">
+                    <label for="sem-1">1st</label>
+
+                    <input id="sem-2" type="radio" name="semester" value="2nd">
+                    <label for="sem-2">2nd</label>
+
+                    <input id="sem-3" type="radio" name="semester" value="3rd">
+                    <label for="sem-3">3rd</label>
+                </div>
+
+                <div>
+                    <label for="name">Full Name</label>
+                    <input id="name" name="name" type="text" placeholder="Enter your name" required>
+                </div>
+
+                <div>
+                    <label for="student-id">Student ID</label>
+                    <input id="student-id" name="studentId" type="text" placeholder="Enter your ID" required>
+                </div>
+
+                <div>
+                    <label for="email">Email</label>
+                    <input id="email" name="email" type="email" placeholder="Enter email" required>
+                </div>
+
+                <div>
+                    <label for="phone">Phone Number</label>
+                    <input id="phone" name="phone" type="text" placeholder="Enter phone number" required>
+                </div>
+            </section>
+
+            <!-- ================= SKILLS ================= -->
+            <section>
+                <h2>Skills & Experience</h2>
+
+                <div>
+                    <p>Programming Level</p>
+
+                    <input id="level-beginner" type="radio" name="level">
+                    <label for="level-beginner">Beginner</label>
+
+                    <input id="level-intermediate" type="radio" name="level">
+                    <label for="level-intermediate">Intermediate</label>
+
+                    <input id="level-pro" type="radio" name="level">
+                    <label for="level-pro">Professional</label>
+                </div>
+
+                <div>
+                    <p>Programming Languages</p>
+
+                    <input id="lang-c" type="checkbox" name="languages" value="c">
+                    <label for="lang-c">C</label>
+
+                    <input id="lang-cpp" type="checkbox" name="languages" value="cpp">
+                    <label for="lang-cpp">C++</label>
+
+                    <input id="lang-python" type="checkbox" name="languages" value="python">
+                    <label for="lang-python">Python</label>
+
+                    <input id="lang-js" type="checkbox" name="languages" value="javascript">
+                    <label for="lang-js">JavaScript</label>
+                </div>
+
+                <div>
+                    <label for="portfolio">GitHub / Portfolio Link</label>
+                    <input id="portfolio" name="portfolio" type="url" placeholder="https://...">
+                </div>
+            </section>
+
+            <!-- ================= ADDITIONAL INFO ================= -->
+            <section>
+                <h2>Additional Information</h2>
+
+                <div>
+                    <p>Will you bring your laptop?</p>
+
+                    <input id="laptop-yes" type="radio" name="laptop">
+                    <label for="laptop-yes">Yes</label>
+
+                    <input id="laptop-no" type="radio" name="laptop">
+                    <label for="laptop-no">No</label>
+                </div>
+
+                <div>
+                    <label for="journey">
+                        Tell us about your programming journey and motivation
+                    </label>
+                    <textarea id="journey" name="journey" placeholder="Write here..."></textarea>
+                </div>
+
+                <div>
+                    <p>T-shirt Size</p>
+
+                    <input id="size-s" type="radio" name="size">
+                    <label for="size-s">S</label>
+
+                    <input id="size-m" type="radio" name="size">
+                    <label for="size-m">M</label>
+
+                    <input id="size-l" type="radio" name="size">
+                    <label for="size-l">L</label>
+
+                    <input id="size-xl" type="radio" name="size">
+                    <label for="size-xl">XL</label>
+                </div>
+            </section>
+
+            <!-- SUBMIT -->
+            <section>
+                <button type="submit">Submit Application</button>
+            </section>
+
+        </form>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>Thank you for applying. We will contact you soon.</p>
+        <small>Selection is based on skill and availability.</small>
+    </footer>
+
+</body>
+
+</html>
