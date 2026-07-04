@@ -1,101 +1,88 @@
-# 📘 HTML Practice Projects (Beginner MERN Bootcamp)
+# 📘 Programming Hero MERN Bootcamp Practice
 
-This repository contains my **hands-on HTML practice tasks** from the Programming Hero MERN stack bootcamp.  
-I am learning HTML from the ground up by building real structured pages instead of only watching tutorials.
+This repository contains my daily practice work from the **Programming Hero MERN Stack Bootcamp**.
 
----
-
-## 🚀 What I Learned So Far
-
-### 🧱 Basic HTML Structure
-- `<!DOCTYPE html>`
-- `<html>`, `<head>`, `<body>`
-- `lang` attribute
-- `meta charset` and viewport
-
-### ✍️ Text & Content Tags
-- Headings: `h1 - h6`
-- Paragraph: `p`
-- Formatting: `strong`, `em`, `small`, `b`
-- Line break: `br` (use carefully)
-
-### 📋 Lists
-- Ordered list: `ol`
-- Unordered list: `ul`
-- List items: `li`
-
-### 🔗 Links & Media
-- Anchor tag: `a`
-- `target="_blank"`
-- `mailto:`
-- Images: `img` with `alt`
-- Audio / Video with `controls`
-- Iframe basics
-
-### 🧩 Layout & Semantic HTML
-- `header`, `main`, `footer`
-- `section`, `article`, `nav`, `aside`
-- Difference between semantic vs non-semantic tags
-- `div` vs semantic tags
-
-### 📝 Forms
-- `form`
-- Inputs: `text`, `email`, `password`, `number`
-- `radio` vs `checkbox`
-- `label` and `for` attribute
-- `select`, `option`
-- `textarea`
-- `button`
+The goal of this repository is to document my learning journey by completing coding exercises, practice tasks, mini-projects, and assignments throughout the bootcamp.
 
 ---
 
-## 📂 Projects Included
+## 🎯 Purpose
 
-### 1. 🍽️ Restaurant Menu Page
-A simple static restaurant menu layout using:
-- Sections for food categories
-- Images and pricing
-- Basic layout structure
+This repository is my learning log. Instead of only watching lectures, I practice every concept by building small projects and solving exercises on my own.
 
-### 2. 🧾 Event Registration Form
-A full HTML form including:
-- Text inputs
-- Radio buttons (single selection groups)
-- Checkboxes (multi-select skills)
-- Dropdowns
-- Textarea for user input
-- Submit button
+My focus is to:
+
+- Build strong programming fundamentals
+- Practice consistently every day
+- Learn by writing code rather than memorizing
+- Develop clean and readable code
+- Track my progress throughout the bootcamp
 
 ---
 
-## ⚠️ Key Things I Focused On
+## 📂 Repository Structure
 
-- Using **semantic HTML instead of only divs**
-- Correct use of **label + input (accessibility)**
-- Proper grouping of radio buttons using `name`
-- Keeping structure readable and clean
-- Avoiding unnecessary `<br>` usage
-- Thinking in terms of **sections and meaning**, not just layout
+The repository will continue to grow as I progress through the bootcamp.
 
----
+Topics and projects may include:
 
-## 🧠 What I’m Still Improving
+- HTML
+- CSS
+- Responsive Design
+- JavaScript (ES6+)
+- DOM Manipulation
+- APIs
+- React
+- Firebase Authentication
+- Node.js
+- Express.js
+- MongoDB
+- Next.js
+- Full-Stack MERN Projects
 
-- Cleaner form structure (less repetition)
-- Better semantic grouping (`article` vs `div` usage)
-- More readable layouts without inline styling
-- Accessibility improvements (proper labeling everywhere)
-
----
-
-## 🎯 Goal
-
-Build strong fundamentals in HTML so that when I move to CSS, JavaScript, and React, I focus on **logic and structure instead of basic confusion**.
+Each module contains practice files, exercises, and mini-projects based on the concepts learned during that stage.
 
 ---
 
-## 📌 Note for Myself
+## 💻 What You'll Find
 
-This repo is not about “perfect UI”.  
-It is about:
-> writing correct, meaningful, and structured HTML.
+Depending on the module, this repository may include:
+
+- Practice exercises
+- Daily assignments
+- Mini projects
+- Forms
+- Landing pages
+- UI components
+- Layout practice
+- JavaScript problem-solving
+- React applications
+- Backend practice
+- Database integration
+
+---
+
+## 🧠 Learning Approach
+
+While working through the bootcamp, I aim to:
+
+- Understand concepts instead of memorizing syntax.
+- Write semantic and maintainable code.
+- Experiment with different solutions.
+- Improve code organization and readability.
+- Build projects from scratch whenever possible.
+- Learn from mistakes and continuously refactor my code.
+
+---
+
+## 🚀 Progress
+
+This repository is updated regularly as I complete new modules and practice tasks. Earlier code may not represent my current skill level, as it reflects my learning at that point in time.
+
+---
+
+## 📌 Note
+
+This repository is intended for learning and practice. The code reflects my progress throughout the bootcamp, so you'll see my coding style and understanding evolve over time.
+
+Feedback, suggestions, and constructive criticism are always welcome.
