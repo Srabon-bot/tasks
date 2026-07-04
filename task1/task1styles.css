@@ -1,0 +1,71 @@
+header{
+    background-color: bisque;
+    border-radius: 10px;
+}
+footer{
+    background-color: bisque;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+article{
+    border: 2px rgb(129, 4, 4) solid;
+    margin: 10px;
+    border-radius: 10px;
+}
+p{
+    font-size: large;
+}
+
+body{
+    background-color: rgba(255, 235, 205, 0.274);
+    text-align: center;
+}
+
+#hero {
+    text-align: center;
+}
+
+#hname {
+    color: darkgreen;
+}
+
+#stitle{
+    color: gray;
+    font-style: italic;
+}
+
+#bhat > h2 {
+    color: rgb(40, 40, 87);
+}
+#bhorta > h2 {
+    color: rgb(119, 118, 44);
+}
+#gosto > h2 {
+    color: rgb(243, 144, 30);
+}
+#dim > h2 {
+    color: rgb(247, 211, 11);
+}
+#shobji > h2 {
+    color: rgb(5, 207, 21);
+}
+
+img{
+    width: 400px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+label{
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+#submit button{
+    background-color: aqua;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
