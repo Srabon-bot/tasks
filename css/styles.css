@@ -1,0 +1,15 @@
+#external {
+    color: red;
+    text-align: center;
+}
+
+body {
+    background-color: bisque;
+}
+
+.test1{
+    border: 10px solid black;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 15px;
+}
