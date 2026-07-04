@@ -1,7 +1,18 @@
 header{
+     text-align: center;
     background-color: bisque;
     border-radius: 10px;
 }
+
+header h1{
+    color: darkgreen;
+}
+
+header p{
+    color: gray;
+    font-style: italic;
+}
+
 footer{
     background-color: bisque;
     padding: 10px;
@@ -9,10 +20,18 @@ footer{
     border-radius: 10px;
 }
 
+section{
+    margin: 40px 0;
+    
+}
+
 article{
+    display: inline-block;
     border: 2px rgb(129, 4, 4) solid;
     margin: 10px;
     border-radius: 10px;
+    padding: 20px;
+    width:300px;
 }
 p{
     font-size: large;
@@ -21,19 +40,6 @@ p{
 body{
     background-color: rgba(255, 235, 205, 0.274);
     text-align: center;
-}
-
-#hero {
-    text-align: center;
-}
-
-#hname {
-    color: darkgreen;
-}
-
-#stitle{
-    color: gray;
-    font-style: italic;
 }
 
 #bhat > h2 {
@@ -53,7 +59,8 @@ body{
 }
 
 img{
-    width: 400px;
+    width: 300px;
+    height: 300px;
     margin-top: 10px;
     border-radius: 10px;
 }
