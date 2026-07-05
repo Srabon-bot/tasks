@@ -1,0 +1,180 @@
+/* ---------------------- */
+/* Global */
+/* ---------------------- */
+
+body{
+    margin:0;
+    background:black;
+    color:white;
+    font-family:Georgia, serif;
+}
+
+/* ---------------------- */
+/* Reusable Container */
+/* ---------------------- */
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:0 auto;
+}
+
+/* ---------------------- */
+/* Header */
+/* ---------------------- */
+
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 0;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.logo img{
+    width:50px;
+}
+
+nav ul{
+    display:flex;
+    gap:25px;
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+}
+
+nav a:hover{
+    color:deepskyblue;
+}
+
+/* ---------------------- */
+/* Hero */
+/* ---------------------- */
+
+.hero{
+    min-height:70vh;
+
+    display:flex;
+    flex-direction:column;
+
+    justify-content:center;
+    align-items:center;
+
+    text-align:center;
+}
+
+/* ---------------------- */
+/* Pricing Layout */
+/* ---------------------- */
+
+.pricing-cards{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:25px;
+
+    margin-top:60px;
+
+}
+
+/* ---------------------- */
+/* Shared Card */
+/* ---------------------- */
+
+.card{
+
+    flex:1;
+
+    border:2px solid white;
+
+    border-radius:20px;
+
+    padding:25px;
+
+    display:flex;
+
+    flex-direction:column;
+
+}
+
+/* ---------------------- */
+/* Featured Card */
+/* ---------------------- */
+
+.standard{
+
+    border-color:deepskyblue;
+
+    transform:scale(1.05);
+
+}
+
+/* ---------------------- */
+/* Price */
+/* ---------------------- */
+
+.price{
+
+    font-size:2rem;
+
+}
+
+.price small{
+
+    font-size:.9rem;
+
+    color:gray;
+
+}
+
+/* ---------------------- */
+/* Button */
+/* ---------------------- */
+
+.card button{
+
+    margin:20px 0;
+
+    padding:12px;
+
+    border:none;
+
+    border-radius:30px;
+
+    cursor:pointer;
+
+}
+
+.standard button{
+
+    background:deepskyblue;
+
+}
+
+/* ---------------------- */
+/* Features */
+/* ---------------------- */
+
+.features{
+
+    padding-left:20px;
+
+}
+
+.features li{
+
+    margin-bottom:12px;
+
+}
